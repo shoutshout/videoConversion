@@ -1,0 +1,25 @@
+package com.example.ffmpeg.demo;
+
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author hu
+ *
+ */
+@Slf4j
+@SpringBootApplication
+public class DemoApplication {
+
+    public static void main(String[] args) {
+
+        log.info("开始启动。。。。。。。。。。。。。。。。。。。");
+
+        SpringApplication.run(DemoApplication.class, args);
+
+        log.info("已经启动啦。。。。。。。。。。。。。。。。。。");
+
+    }
+
+}
